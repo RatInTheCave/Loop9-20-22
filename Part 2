@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner cd = new Scanner(System.in);
+        String ducks;
+        System.out.println("How many ducks do you have?");
+        ducks = cd.nextLine();
+        System.out.println("Oh, you have " + ducks);
+        System.out.println("ducks? I have 5!");
+        int duck = 5;
+        while (duck > 0) {
+            System.out.println(duck + " left");
+            duck = duck - 1;
+        }
+            System.out.println("Oh no! They're escaping!");
+
+
+
+        }
+    }
