@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner id = new Scanner(System.in);
+        System.out.println("What is your favorite movie franchise?");
+        String FavBook;
+        FavBook = id.nextLine();
+        if (FavBook.equals( "Jurassic Park")){
+            System.out.println("It is my favorite too!");
+        } else if (FavBook.equals( "Star Wars")) {
+            System.out.println("Same. Star Wars is awesome.");
+        } else if (FavBook.equals( "MCU")) {
+            System.out.println("That is a good franchise.");
+        } else if (FavBook.equals("Marvel")) {
+            System.out.println("That is a good franchise.");
+        } else if (FavBook.equals( "I don't watch movies")) {
+            System.out.println("There are people who don't watch movies?");
+        } else if (FavBook.equals("I don't have any")) {
+            System.out.println("There are people who don't watch movies?");
+        } else if (FavBook.equals("I do not watch movies")) {
+            System.out.println("There are people who don't watch movies?");
+        } else if (FavBook.equals("I do not have any")){
+            System.out.println("There are people who don't watch movies?");
+        } else {
+            System.out.println("Not sure what I think about that, buy I hope you like it");
+        }
+        
+    }
+}
+//411 9!?4!$3 nn3
